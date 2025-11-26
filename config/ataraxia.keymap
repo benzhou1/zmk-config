@@ -194,7 +194,7 @@
 
 
         ALPHA_layer {
-            display-name = "-ATAR-";  
+            display-name = "ALPHA";  
             bindings = <
                 ESCFN  &kp Q      &kp W       &kp E       &kp R        &kp T       &kp Y      &kp U        &kp I       &kp O       &kp P     &kp BSPC
                 NTAB   &kp A      &mt LGUI S  &mt LALT D  &mt LCTRL F  &kp G       &kp H      &mt RCTRL J  &mt RALT K  &mt RGUI L  &kp SEMI  &kp QUOT
@@ -203,24 +203,12 @@
             >;
         };
 
-/*
-        ALPHA_layer {
-            display-name = "ATARAXIA";  
-            bindings = <
-                &kp A  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I   &kp O   &kp P    &sys_reset
-                &kp B  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K   &kp L   &kp SEMI &kp Y
-                &kp C  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT &kp FSLH &kp Z
-                                &kp A &kp B &kp C  &kp D   &kp E &kp F
-            >;
-        };
-*/
         SYMBOL_layer {
             display-name = "SYMBOL";  
             bindings = <
-                GRV &kp EXCL  &kp AT  &kp HASH  &kp DLLR &kp PRCNT &kp CARET &kp AMPS &kp STAR &kp PIPE &none &none
-                GRV &kp TILDE UND     &kp EQUAL &bkt     &none  &brc  &par      &thn   &kp BSLH &none &none
-                LSHF  &none &kp PLUS  &kp MINUS &none    &none &none &kp COLON &trans &kp SEMI RSHF &none
-                                 &kp LCTRL &kp LALT &kp SPACE  &kp RET   &kp RGUI &kp DEL
+                &none  &kp N1     &kp N2  &kp N3     &kp N4     &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none
+                &none  &kp UNDER  &none   &kp MINUS  &kp EQUAL  &none  &none  &none  &none  &none  &none  &none  
+                &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  
             >;
         };
 
