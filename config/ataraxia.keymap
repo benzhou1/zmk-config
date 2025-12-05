@@ -41,6 +41,7 @@
 #define MS_R &msc SCRL_RIGHT
 #define MS_L &msc SCRL_LEFT
 
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -54,12 +55,12 @@
         combo_right_meh {
             timeout-ms = <40>;
             key-positions = < 19 20 21 >;
-            bindings = <&meh>;
+            bindings = < &sk LC(LG(LS(0))) >;
         };
         combo_left_meh {
             timeout-ms = <40>;
             key-positions = < 14 15 16 >;
-            bindings = <&meh>;
+            bindings = < &sk LC(LG(LS(0))) >;
         };
         combo_left_mouse_click {
             timeout-ms = <40>;
@@ -144,10 +145,10 @@
         SYMBOL_layer {
             display-name = "SYMBOL";  
             bindings = <
-                &none  &kp N1     &kp N2  &kp N3     &kp N4     &kp N5     &kp N6    &kp N7    &kp N8    &kp N9     &kp N0    &none
-                &none  &kp UNDER  &none   &kp MINUS  &kp EQUAL  &kp GRAVE  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT  &kp APOS  &none  
-                &none  &none      &none   &none      &kp PLUS   &kp PIPE   &kp STAR  &kp LBKT  &kp RBKT  &none      &kp BSLH  &none  
-                                          &none      &none      &none      &none     &none     &none
+                &trans  &kp N1     &kp N2  &kp N3     &kp N4     &kp N5     &kp N6    &kp N7    &kp N8    &kp N9     &kp N0    &trans
+                &trans  &kp UNDER  &trans  &kp MINUS  &kp EQUAL  &kp GRAVE  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT  &kp APOS  &trans  
+                &trans  &trans     &trans  &trans     &kp PLUS   &kp PIPE   &kp STAR  &kp LBKT  &kp RBKT  &trans     &kp BSLH  &trans  
+                                           &trans     &trans     &trans     &trans    &trans    &trans
             >;
         };
     };
