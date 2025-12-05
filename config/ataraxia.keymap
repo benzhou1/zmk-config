@@ -134,10 +134,10 @@
         ALPHA_layer {
             display-name = "ALPHA";  
             bindings = <
-                ESCFN  &kp Q      &kp W        &kp E        &kp R         &kp T       &kp Y      &kp U         &kp I        &kp O        &kp P     &kp BSPC
-                NTAB   &kp A      &hml LGUI S  &hml LALT D  &hml LCTRL F  &kp G       &kp H      &hmr RCTRL J  &hmr RALT K  &hmr RGUI L  &kp SEMI  &kp QUOT
-                LSHF   &kp LSHFT  &kp X        &kp C        &kp V         &kp B       &kp N      &kp M         &kp COMMA    &kp DOT      &kp FSLH  &kp CAPS
-                                               &mo SYMBOL   &mo SYMBOL    &mo SYMBOL  &kp SPACE  &kp SPACE     &kp SPACE
+                &kp Q      &kp Q      &kp W        &kp E        &kp R         &kp T       &kp Y      &kp U         &kp I        &kp O        &kp P     &kp BSPC
+                &kp A      &kp A      &hml LGUI S  &hml LALT D  &hml LCTRL F  &kp G       &kp H      &hmr RCTRL J  &hmr RALT K  &hmr RGUI L  &kp SEMI  &kp QUOT
+                &kp LSHFT  &kp LSHFT  &kp X        &kp C        &kp V         &kp B       &kp N      &kp M         &kp COMMA    &kp DOT      &kp FSLH  &kp CAPS
+                                                   &mo SYMBOL   &mo SYMBOL    &mo SYMBOL  &kp SPACE  &kp SPACE     &kp SPACE
             >;
         };
 
