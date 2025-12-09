@@ -95,7 +95,7 @@
         };
         combo_tab {
             timeout-ms = <40>;
-            key-positions = < 12 16 >;
+            key-positions = < 13 16 >;
             bindings = <&kp TAB>;
         };
         combo_backspace {
