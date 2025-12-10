@@ -56,12 +56,12 @@
         combo_right_meh {
             timeout-ms = <40>;
             key-positions = < 19 20 21 >;
-            bindings = < &sk RC(RG(RS(0))) >;
+            bindings = < &sk RC(RA(RS(0))) >;
         };
         combo_left_meh {
             timeout-ms = <40>;
             key-positions = < 14 15 16 >;
-            bindings = < &sk LC(LG(LS(0))) >;
+            bindings = < &sk LC(LA(LS(0))) >;
         };
         combo_right_hyper {
             timeout-ms = <40>;
