@@ -20,7 +20,7 @@ manifest:
       import: app/west.yml
     - name: zmk-keyboards-ataraxia
       remote: miketronic
-      revision: ataraxia_v1_qwerty_5col
+      revision: ataraxia_v1_5col_scroll_ben
     - name: nice-view-gem
       remote: m165437
       revision: main
