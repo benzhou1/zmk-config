@@ -115,8 +115,14 @@
         };
         combo_fn_layer {
             timeout-ms = <40>;
+            slow-release = true;
             key-positions = < 38 39 >;
             bindings = <&mo FN>;
+        };
+        combo_z {
+            timeout-ms = <40>;
+            key-positions = < 25 26 >;
+            bindings = <&kp Z>;
         };
     };
 
