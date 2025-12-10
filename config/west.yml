@@ -12,6 +12,8 @@ manifest:
       url-base: https://github.com/nuovotaka
     - name: badjeff
       url-base: https://github.com/badjeff
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -21,6 +23,12 @@ manifest:
     - name: zmk-keyboards-ataraxia
       remote: miketronic
       revision: ataraxia_v1_5col_scroll_ben
+    - name: zmk-keyboards-aeliux_4
+      remote: miketronic
+      revision: main
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: main
     - name: nice-view-gem
       remote: m165437
       revision: main
