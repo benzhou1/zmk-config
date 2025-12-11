@@ -1,6 +1,6 @@
 
 #
-# ataraxia
+# ataraxia v1
 #
 
 manifest:
@@ -9,17 +9,9 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: miketronic
       url-base: https://github.com/miketronic
-    - name: m165437
-      url-base: https://github.com/M165437
-    - name: efogdev #Other zmk-pmw3610-driver config option
-      url-base: https://github.com/efogdev
     - name: nuovotaka
       url-base: https://github.com/nuovotaka
-    - name: badjeff
-      url-base: https://github.com/badjeff
-   # - name: bluedrink9
-   #   url-base: https://github.com/bluedrink9
-      
+
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -27,19 +19,13 @@ manifest:
       import: app/west.yml
     - name: zmk-keyboards-ataraxia
       remote: miketronic
-      revision: trackball
-    - name: nice-view-gem
-      remote: m165437
-      revision: main
-    - name: zmk-pmw3610-driver
-      remote: badjeff
+      revision: ataraxia_v1_5col_scroll_ben
+    - name: zmk-pmw3610-driver-02
+      remote: miketronic
       revision: main
     - name: zmk-pointing-acceleration-alpha
-      remote: nuovotaka
+      remote: miketronic
       revision: main
-   # - name: zmk-poor-mans-led-indicator
-   #   remote: bluedrink9
-   #   revision: main
       
   self:
     path: config
