@@ -119,7 +119,7 @@ nice_view_spi: &spi2 {
         /* badjeff options begin */
         // cpi = <600>;
         // swap-xy; /* optional */
-C_VOL_DN        // invert-x; /* optional */
+        // invert-x; /* optional */
         // invert-y; /* optional */
         // evt-type = <INPUT_EV_REL>;
         // x-input-code = <INPUT_REL_X>;
