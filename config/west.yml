@@ -1,6 +1,9 @@
+
+#
+# ataraxia
+#
+
 manifest:
-  defaults:
-    revision: v0.3
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -8,14 +11,15 @@ manifest:
       url-base: https://github.com/miketronic
     - name: m165437
       url-base: https://github.com/M165437
+    - name: efogdev #Other zmk-pmw3610-driver config option
+      url-base: https://github.com/efogdev
     - name: nuovotaka
       url-base: https://github.com/nuovotaka
     - name: badjeff
       url-base: https://github.com/badjeff
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+   # - name: bluedrink9
+   #   url-base: https://github.com/bluedrink9
+      
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -23,13 +27,7 @@ manifest:
       import: app/west.yml
     - name: zmk-keyboards-ataraxia
       remote: miketronic
-      revision: ataraxia_v1_5col_scroll_ben
-    - name: zmk-keyboards-aeliux_4
-      remote: miketronic
-      revision: main
-    - name: zmk-rgbled-widget
-      remote: caksoylar
-      revision: main
+      revision: trackball
     - name: nice-view-gem
       remote: m165437
       revision: main
@@ -39,5 +37,10 @@ manifest:
     - name: zmk-pointing-acceleration-alpha
       remote: nuovotaka
       revision: main
+   # - name: zmk-poor-mans-led-indicator
+   #   remote: bluedrink9
+   #   revision: main
+      
   self:
     path: config
+
