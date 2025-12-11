@@ -55,11 +55,13 @@
         };
         combo_right_meh {
             timeout-ms = <40>;
+            slow-release;
             key-positions = < 19 20 21 >;
             bindings = < &sk RC(RA(RS(0))) >;
         };
         combo_left_meh {
             timeout-ms = <40>;
+            slow-release;
             key-positions = < 14 15 16 >;
             bindings = < &sk LC(LA(LS(0))) >;
         };
