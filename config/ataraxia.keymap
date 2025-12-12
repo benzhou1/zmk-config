@@ -73,7 +73,7 @@
         };
         combo_left_hyper {
             timeout-ms = <40>;
-            key-positions = < 14 15 16 17 >;
+            key-positions = < 13 14 15 16 >;
             bindings = <&hold_hyper_macro>;
         };
         combo_left_mouse_click {
