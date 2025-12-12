@@ -143,15 +143,15 @@ nice_view_spi: &spi2 {
         // automouse-layer = <5>;
 
         /*   optional: ball action on specific layers  */
-        /* arrows { */
-        /*     layers = <4>; */
-        /*     bindings = <&kp C_VOL_UP>, <&kp C_VOL_DN>, <&kp C_VOL_UP>, <&kp C_VOL_DN>; */
-        /**/
+        arrows {
+            layers = <2>;
+            bindings = <&kp C_VOL_UP>, <&kp C_VOL_DN>, <&kp C_VOL_UP>, <&kp C_VOL_DN>;
+
              /*   optional: ball action configuration  */
-        /*     tick = <20>; */
-        /*     wait-ms = <5>; */
-        /*     tap-ms = <5>; */
-        /* }; */
+            tick = <20>;
+            wait-ms = <5>;
+            tap-ms = <5>;
+        };
         /* kumamuk options end */ 
 
     };
